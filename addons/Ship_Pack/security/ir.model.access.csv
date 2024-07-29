@@ -1,5 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_pack_station_user,access_pack_station_user,model_pack_station,base.group_user,1,1,1,1
-access_scan_product_user,access_scan_product_user,model_stock_picking_scan_product,base.group_user,1,1,1,1
-access_scan_location_user,access_scan_location_user,model_stock_picking_scan_location,base.group_user,1,1,1,1
-access_scan_bag_user,access_scan_bag_user,model_stock_picking_scan_bag,base.group_user,1,1,1,1
