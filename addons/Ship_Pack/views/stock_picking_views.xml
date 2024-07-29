@@ -6,8 +6,7 @@
         <field name="arch" type="xml">
             <xpath expr="//header" position="inside">
                 <button name="send_execution_message" type="object" string="Send to External System" class="btn-primary"/>
-                <button name="start_packing_process" type="object" string="Start Packing" class="btn-secondary"
-                        attrs="{'invisible': [('hu_scanned', '=', True)]}"/>
+                <button name="start_packing_process" type="object" string="Start Packing" class="btn-secondary"/>
             </xpath>
             <xpath expr="//sheet" position="inside">
                 <group>
