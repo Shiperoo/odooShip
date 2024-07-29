@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_inventory_message_log,access_inventory_message_log,model_inventory_message_log,,1,1,1,1
+access_pack_bench,access_pack_bench,model_pack_bench,,1,1,1,1
+access_pack_config,access_pack_config,model_pack_config,,1,1,1,1

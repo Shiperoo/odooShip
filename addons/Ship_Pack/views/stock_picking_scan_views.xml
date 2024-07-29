@@ -1,0 +1,49 @@
+<odoo>
+    <record id="view_scan_product_form" model="ir.ui.view">
+        <field name="name">stock.picking.scan.product.form</field>
+        <field name="model">stock.picking.scan.product</field>
+        <field name="arch" type="xml">
+            <form string="Scan Product">
+                <group>
+                    <field name="product_barcode"/>
+                </group>
+                <footer>
+                    <button string="Scan" type="object" name="scan_product" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_scan_location_form" model="ir.ui.view">
+        <field name="name">stock.picking.scan.location.form</field>
+        <field name="model">stock.picking.scan.location</field>
+        <field name="arch" type="xml">
+            <form string="Scan Virtual Location">
+                <group>
+                    <field name="location_id"/>
+                </group>
+                <footer>
+                    <button string="Scan" type="object" name="scan_location" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_scan_bag_form" model="ir.ui.view">
+        <field name="name">stock.picking.scan.bag.form</field>
+        <field name="model">stock.picking.scan.bag</field>
+        <field name="arch" type="xml">
+            <form string="Scan Bag ID">
+                <group>
+                    <field name="bag_id"/>
+                </group>
+                <footer>
+                    <button string="Scan" type="object" name="scan_bag" class="btn-primary"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,21 @@
+{
+    'name': 'Odoo Custom Packing Module',
+    'version': '1.0',
+    'summary': 'Module to extend Odoo for custom packing processes',
+    'description': 'This module adds custom packing functionality and integrations to Odoo.',
+    'category': 'Warehouse',
+    'author': 'Shiperoo',
+    'website': 'https://Shiperoo.com',
+    'depends': ['stock', 'base'],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/inventory_message_log_views.xml',
+        'views/pack_bench_views.xml',
+        'views/pack_config_views.xml',
+        'views/stock_picking_views.xml',
+        'views/stock_picking_scan_views.xml',
+        'data/scheduled_action_data.xml',
+    ],
+    'installable': True,
+    'application': True,
+}
